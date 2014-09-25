@@ -1,7 +1,7 @@
 language: cpp
 compiler:
   - gcc
-before_script: yum install gtest
+#before_script: yum install gtest
 script: ./1.sh
 os:
   - linux
