@@ -2,7 +2,7 @@ language: cpp
 compiler:
   - gcc
 before_script: yum install gtest
-script: make && make test
+script: ./1.sh
 os:
   - linux
   - osx
