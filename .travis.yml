@@ -1,7 +1,11 @@
 language: cpp
 compiler:
   - gcc
+before_script: yum install gtest
 script: make && make test
 os:
   - linux
   - osx
+notifications:
+  recipients:
+    - 2273949858@qq.com
